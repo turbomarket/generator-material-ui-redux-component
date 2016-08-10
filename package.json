@@ -1,0 +1,24 @@
+{
+  "name": "generator-material-ui-redux-component",
+  "version": "0.1.0",
+  "description": "Yeoman generator that scaffolds a project structure for creating a redux containers based on material-ui react components (https://material-ui.com)",
+  "main": "index.js",
+  "files": [
+    "generators/app"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Tomás Girardi (github.com/tgirardi)",
+  "license": "ISC",
+  "dependencies": {
+    "dive": "^0.5.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "lodash": "^4.14.2",
+    "yeoman-generator": "^0.24.1"
+  }
+}

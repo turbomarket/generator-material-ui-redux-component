@@ -1,0 +1,66 @@
+{
+  // Extend existing configuration
+  // from ESlint and eslint-plugin-react defaults.
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  // Enable custom plugin known as eslint-plugin-react
+  "plugins": [
+    "react",
+    "flowtype"
+  ],
+  "rules": {
+    // Disable `no-console` rule
+    "no-console": 0,
+    // Give a warning if identifiers contain underscores
+    "no-underscore-dangle": 1,
+    // Default to single quotes and raise an error if something
+    // else is used
+    "quotes": [2, "single"],
+    // No semicolon at the end
+    "semi": [1, "never"],
+    "flowtype/define-flow-type": 1,
+    "flowtype/require-parameter-type": 1,
+    "flowtype/require-return-type": [
+      1,
+      "never",
+      {
+        "annotateUndefined": "never"
+      }
+    ],
+    "flowtype/space-after-type-colon": [
+      1,
+      "always"
+    ],
+    "flowtype/space-before-type-colon": [
+      1,
+      "never"
+    ],
+    "flowtype/type-id-match": [
+      1,
+      "^([A-Z][a-z0-9]+)+Type$"
+    ],
+    "flowtype/use-flow-type": 1
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+  "globals": {
+    jasmine: true,
+    describe: true,
+    it: true,
+    beforeEach: true,
+    afterEach: true,
+    expect: true,
+    callPhantom: true,
+  }
+}
