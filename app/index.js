@@ -75,5 +75,9 @@ module.exports = generators.Base.extend({
         }
       )
     }.bind(this))
+  },
+
+  installing() {
+    this.installDependencies()
   }
 })
