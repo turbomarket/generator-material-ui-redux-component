@@ -29,7 +29,7 @@ let DevTools
 
 // pasos asicionales en caso que estemos en ambiente de desarrollo
 if (process.env.NODE_ENV !== 'production' && process.env.DEV_TOOLS !== 'false') {
-  DevTools = require('./components/DevTools.jsx').default // eslint-disable-line global-require
+  DevTools = require('../components/DevTools.jsx').default // eslint-disable-line global-require
 
   // workaround to allow the use of react-devtools in case this app is inside an
   // iframe
