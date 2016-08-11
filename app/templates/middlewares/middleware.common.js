@@ -1,4 +1,5 @@
 import { applyMiddleware } from 'redux'
-import thunk from 'redux-thunk'
+// import middlewares here
+// ej: import thunk from 'redux-thunk'
 
-export default applyMiddleware(thunk)
+export default applyMiddleware( /* apply middlewares here */ )
