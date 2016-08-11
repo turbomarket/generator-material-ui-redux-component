@@ -1,4 +1,4 @@
-import TimePickerActionTypes from './TimePickerActionTypes'
+import <%= name %>ActionTypes from './<%= name %>ActionTypes'
 
 // TODO: add action creators like this:
 // export const actionName /* TODO: adjust action name */ = ( /* args... */) => ({
