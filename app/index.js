@@ -64,14 +64,14 @@ module.exports = generators.Base.extend({
       this.fs.copyTpl(file, path.join(destinationRoot,
         path.relative(templatePath, file).replace('Component', 'TimePicker')),
         {
-          name: 'TimePicker',
-          nameupper: 'TIMEPICKER',
-          namelower: 'timepicker',
-          namecamel: 'timePicker',
-          version: '0.1.0',
-          use: 'mostrar un campo de hora',
-          author: 'Tomás',
-          license: 'ISC',
+          name: this.name,
+          nameupper: this.nameupper,
+          namelower: this.namelower,
+          namecamel: this.namecamel,
+          version: this.version,
+          use: this.use,
+          author: this.author,
+          license: this.license,
         }
       )
     }.bind(this))
