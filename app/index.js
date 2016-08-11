@@ -62,7 +62,7 @@ module.exports = generators.Base.extend({
     dive(templatePath, { all: true }, function (err, file, stat) {
       if (err) throw err
       this.fs.copyTpl(file, path.join(destinationRoot,
-        path.relative(templatePath, file).replace('Component', 'TimePicker')),
+        path.relative(templatePath, file).replace('Component', this.name)),
         {
           name: this.name,
           nameupper: this.nameupper,
