@@ -2,8 +2,6 @@ const generators = require('yeoman-generator')
 const path = require('path')
 const dive = require('dive')
 const camelCase = require('lodash/camelCase')
-const upperCase = require('lodash/upperCase')
-const lowerCase = require('lodash/lowerCase')
 const upperFirst = require('lodash/upperFirst')
 
 module.exports = generators.Base.extend({
@@ -49,8 +47,8 @@ module.exports = generators.Base.extend({
       this.license = answers.license
 
       // derived values
-      this.nameupper = upperCase(answers.name)
-      this.namelower = lowerCase(answers.name)
+      this.nameupper = answers.name.toUpperCase()
+      this.namelower = answers.name.toLowerCase()
       this.namecamel = camelCase(answers.name)
 
     }.bind(this))
