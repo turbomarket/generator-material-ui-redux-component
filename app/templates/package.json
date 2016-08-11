@@ -33,6 +33,7 @@
     "flow-bin": "^0.30.0",
     "grunt": "^1.0.1",
     "grunt-babel": "^6.0.0",
+    "grunt-contrib-jasmine": "^1.0.3",
     "grunt-webpack": "^1.0.11",
     "jasmine_dom_matchers": "^1.4.0",
     "jsdom": "^9.4.1",
