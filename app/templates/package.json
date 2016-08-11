@@ -2,7 +2,7 @@
   "name": "<%= namelower %>",
   "version": "<%= version %>",
   "description": "React Component + Redux Container <%= use %>",
-  "main": "app.jsx",
+  "main": "index.jsx",
   "engines": {
     "node": "6.3.0"
   },

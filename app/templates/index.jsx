@@ -1,4 +1,4 @@
-import { mountApp } from './appComponent.jsx'
+import { mountApp } from './components/app.jsx'
 
 // renderizamos
 mountApp({ id: '<%= namelower %>' })

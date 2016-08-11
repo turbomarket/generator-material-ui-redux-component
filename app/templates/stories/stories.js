@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@kadira/storybook'
-import { AppComponent } from '../appComponent.jsx'
+import { AppComponent } from '../components/app.jsx'
 
 storiesOf('<%= name %>', module)
   .add(

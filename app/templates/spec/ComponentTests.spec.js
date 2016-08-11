@@ -1,4 +1,4 @@
-import { mountApp, unmountApp } from '../appComponent.jsx'
+import { mountApp, unmountApp } from '../components/app.jsx'
 import { /* TODO: import desired methods here */ } from './helpers/<%= name %>TestsUtils'
 import { /* TODO: import desired constants here */ } from './helpers/<%= name %>TestsConstants'
 import { takeScreenShot } from './helpers/phantomJSHelper'

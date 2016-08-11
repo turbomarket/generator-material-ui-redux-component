@@ -2,7 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 
 module.exports = {
-  entry: ['./app.jsx'],
+  entry: ['./index.jsx'],
   devtool: 'source-map',
   output: {
     path: path.join(__dirname, 'static'),

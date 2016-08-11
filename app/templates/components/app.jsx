@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { render, unmountComponentAtNode } from 'react-dom'
 import { Provider } from 'react-redux'
-import configureStore from './store'
+import configureStore from '../store'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import <%= name %> from './containers/<%= name %>Container.jsx'
+import <%= name %> from '../containers/<%= name %>Container.jsx'
 // dependencia requerida por material-ui
 // (http://www.material-ui.com/#/get-started/installation)
 import injectTapEventPlugin from 'react-tap-event-plugin'

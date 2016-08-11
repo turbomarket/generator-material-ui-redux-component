@@ -3,7 +3,7 @@ const webpack = require('webpack')
 
 module.exports = {
   entry: {
-    appComponent: ['./appComponent.jsx'],
+    app: ['./components/app.jsx'],
     'spec/<%= name %>Tests.spec': './spec/<%= name %>Tests.spec',
     'spec/helpers/index': './spec/helpers/index',
   },
