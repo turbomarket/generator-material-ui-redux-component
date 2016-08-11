@@ -5,7 +5,7 @@ module.exports = function run(grunt) {
 
   grunt.config.set('jasmine',
     {
-      src: 'static/appComponent.js',
+      src: 'static/components/app.js',
       options: {
         keepRunner: true,
         template: 'spec/Runner.tmpl',
@@ -14,7 +14,7 @@ module.exports = function run(grunt) {
           'static/spec/helpers/index.js',
         ],
         specs: [
-          'static/spec/TimePickerTests.spec.js',
+          'static/spec/<%= name %>Tests.spec.js',
         ],
         page: {
           viewportSize: {
